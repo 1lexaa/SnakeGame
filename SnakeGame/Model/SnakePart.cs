@@ -11,8 +11,10 @@ namespace SnakeGame.Model
 
         public SnakePart(int x, int y)
         {
+        
             X = x;
             Y = y;
+            
         }
 
         public void GenerateFood(int maxTileWidth, int maxTileHeight)
